@@ -87,6 +87,7 @@ export default {
 			pageData: {},
 		};
 	},
+
 	watch: {
 		page: function() {
 			this.getSchoolList();
@@ -95,6 +96,7 @@ export default {
 			this.getSchoolList();
 		},
 	},
+
 	methods: {
 		async getSchoolList() {
 			const response = await this.axios.get("http://localhost:8080/school?size=" + this.size + "&page=" + this.page);
