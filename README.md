@@ -1,4 +1,4 @@
-# vue-cli-first-project
+# Vue Cli First Project
 
 ## Project setup
 ```
